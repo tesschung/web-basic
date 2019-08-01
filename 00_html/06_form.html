@@ -4,14 +4,36 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <meta http-equiv="X-UA-Compatible" content="ie=edge">
-    <title>Login</title>
+    <title>Form</title>
 </head>
 <body>
-    <h1 style="color:blueviolet;">Login</h1>
+    <h1 style="color:blueviolet;"></h1>
+    <!-- action은 어디로 form을 제출할지 의미 부여 -->
+    <!-- 아무것도 적지 않으면 동일한 페이지로 들어간다. -->
     <form action="/login">
-        ID:<input type="number" name="round" /><br />
-        PWD:<input type="text" name="numbers" />
-        <button type="submit">로그인</button>
+        TEXT: <input type="text" value="이것은 기본값" placeholder="내용을 입력해주세요"/><br/>
+        NUMBER: <input type="number" name="round" disabled/><br/> <!-- disabled 안쓰겠다 선언-->
+        PASSWORD: <input type="password" name="round"/><br/>
+        EMAIL: <input type="email"/></br>
+        DATE: <input type="date" value="2019-08-01" name="birth-day"/></br>
+        <button type="submit">로그인</button></br>
+
+        <input type="radio" name="language" value="1"/>HTML<br/>
+        <input type="radio" name="language" value="2" checked/>CSS<br/> <!-- checked="true"와 동일 -->
+        <input type="radio" name="language" value="3"/>JS<br/>
+        <hr/>
+
+        <select name="country">
+          <option value="1">한국</option>
+          <option value="2" selected>중국</option>
+          <option value="3" disabled>일본</option>
+        </select>
+
+        <input type="checkbox" name="option" value="1">
+        <input type="checkbox" name="option" value="2"><br/>
+
+        <input type="color">
+
     </form>
 </body>
 </html>
