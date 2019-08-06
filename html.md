@@ -254,6 +254,8 @@ Semantic Tag
 
 06_form 중요!
 
+사용자의 input을 받는 용도
+
 
 
 http://webberstudy.com/html-css/html-2/table-symactic/

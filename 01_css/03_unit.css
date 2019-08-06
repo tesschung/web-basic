@@ -1,0 +1,28 @@
+h1 {
+  color: darkgoldenrod;
+  /* font-size: 2em; <- h1 default font size */
+  /* 디폴트 (16px) 의 50% -> 8px 적용 */
+  font-size: 50%;
+}
+
+section {
+  /* 디폴트 (16px) 의 50% -> 8px 적용 */
+  font-size: 50%;
+}
+
+section > h2 {
+  color: skyblue;
+  font-size: 5em; 
+  /* 상속의 영향, 부모가 가진 수의 5배 적용, 즉 40px */
+}
+
+ul {
+  /* html이라는 루트(=근원) (16px)의 2배 -> 32px (상속의 영향 x)*/
+  font-size: 2rem;
+}
+
+#box {
+  width: 50vw;
+  height: 100px;
+  background-color: blue;
+}

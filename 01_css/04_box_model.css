@@ -1,0 +1,58 @@
+div {
+  color: white;
+  width: 100px;
+  height: 100px;
+  background-color: grey;
+}
+
+.margin {
+  margin-top: 30px;
+  margin-bottom: 30px;
+  margin-left: 10px;
+  margin-right: 10px;
+}
+
+.padding {
+  padding-top: 30px;
+  padding-bottom: 30px;
+}
+
+.border {
+  border-width: 2px;
+  border-style: dotted;
+  border-color: red;
+  border-top-color: blue;
+  border-radius: 53px;
+}
+
+.margin-shorthand-1 {
+  /* 상하좌우 */
+  margin: 10px
+}
+
+.margin-shorthand-2 {
+  /* 상하 / 좌우 */
+  margin: 10px 20px
+}
+
+.margin-shorthand-3 {
+  /* 상 / 좌우 / 하 */
+  margin: 10px 20px 30px;
+}
+
+.margin-shorthand-4 {
+  /* 상 / 우 / 하 / 좌 (시계방향) */
+  margin: 10px 20px 10px 20px;
+}
+
+.align-center {
+  /* 오른쪽, 왼쪽 반반 나눠준다. 가운데 정렬*/
+  margin: 0 auto;
+}
+
+.align-right {
+  /* 왼쪽에 남은 여백을 붙인다. */
+  margin-left: auto;
+}
+
+
