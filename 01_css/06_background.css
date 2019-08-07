@@ -1,0 +1,39 @@
+body {
+  background-image: url("https://a0.muscache.com/pictures/febbaef0-cf0b-4ecd-a8e3-a629385d6e33.jpg");
+  background-size: cover;
+  /* background-position: center;
+  background-repeat: no-repeat;
+  background-attachment: fixed; */
+  font-family: 'Beth Ellen', cursive;
+}
+
+h1 {
+  /* font-family: 'Beth Ellen', cursive; */
+  color: whitesmoke;
+}
+
+p {
+  font-size: 7ch;
+  font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+  letter-spacing: 0.2ch;
+  text-align: center;
+  white-space: normal;
+  font-weight: bold;
+}
+
+span {
+/*font-size: 150%;
+  font-family: 'Times New Roman', monospace;
+  color: whitesmoke;
+  font-weight: bolder; */
+
+  /*font-family, font-size는 필수값!*/
+  font: 'Courier New', 2rem, bold;
+  color: aliceblue;
+  border: solid;
+}
+
+#google {
+  font-family: 'Beth Ellen', cursive;
+  color: whitesmoke;
+}

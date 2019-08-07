@@ -1,0 +1,49 @@
+body {
+  margin: 0px;
+  padding: 0px;
+}
+
+.box {
+  width: 100px;
+  height: 100px;
+  border: solid;
+  background-color: brown;
+}
+
+/* relative가 선언되지 않은 위치로 부터 top과 left만큼 움직인다. */
+.relative {
+  position: relative;
+  top: 100px;
+  left: 100px;
+  background-color: aqua;
+}
+
+.absolute {
+  position: absolute;
+  top: 50px;
+  left: 50px;
+  background-color: yellow;
+}
+
+.parent {
+  position: fixed;
+  width: 50px;
+  height: 50px;
+  background-color: blueviolet;
+}
+
+.ground {
+  width: 500px;
+  height: 500px;
+  border: solid;
+}
+
+.fixed {
+  position: fixed; /*항상 우측 하단에 위치한다*/
+  bottom: 0;
+  right: 0;
+}
+
+img {
+  float: right;
+}

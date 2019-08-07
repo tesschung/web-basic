@@ -1,0 +1,16 @@
+body {
+  margin: 0px; 
+  padding: 0px;
+}
+
+h1 {
+  margin: 0px;
+}
+
+#bye {
+  display: none;
+}
+
+#hollow {
+  visibility: hidden
+}
