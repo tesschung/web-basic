@@ -6,25 +6,35 @@
   <meta http-equiv="X-UA-Compatible" content="ie=edge">
   <title>Document</title>
   <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css" integrity="sha384-ggOyR0iXCbMQv3Xipma34MD+dH/1fQ784/j6cY/iJTQUOhcWr7x9JvoRxT2MZw1T" crossorigin="anonymous">
-  <link rel="stylesheet" href="01_colors.css">
-</head>
-<body>
-  <div class="bg-primary text-white">Blue</div>
-  <div class="bg-secondary text-white">Grey</div>
-  <div class="bg-success text-white">Green</div>
-  <div class="bg-info text-white">White Blue</div>
-
-  <p class="text-success">이것은 초록색 글씨</p>
-
-  <!--button형태로 만들어진 것-->
-  <div class="btn btn-primary">Blue Button</div> <!-- Class를 두 번 적용 시키겠다. -->
-  <div class="btn btn-dark">Dark Button</div>
   
-  <button type="submit">제출하기</button>
-  <button type="submit" class="btn btn-success">초록 버튼</button>
+  <style>
+    div {
+      width: 100px;
+      height: 100px;
+    }
+  </style>
+</head>
+<body class="mb-4 ml-4">
+  <div class="border border-primary ml-5">파란색</div>
+  <div class="border border-danger">빨간색</div>
+  <hr/>
 
-  <p class="alert alert-info">info color warning</p>
-  <p class="alert alert-warning">info color warning</p>
+  <div class="border">4 경계</div>
+  <hr/>
+
+  <div class="border-top border-danger">border-top</div>
+  <div class="border-left border-primary">border-left</div>
+  <span class="border border-info">안녕</span>
+  <span class="border-right border-dark">안녕</span>
+  <span class="border-bottom">안녕</span>
+
+  <hr/>
+  <div class="border border-top-0 border-danger">안녕</div>
+  <div class="border border-left-0 border-info mt-5">안녕</div>
+
+  <hr/>
+  <img class="rounded-circle" src="images/images.jpg" alt="cat">
+  <img class="rounded-left" src="images/images.jpg" alt="cat">
 
   <script src="https://code.jquery.com/jquery-3.3.1.slim.min.js" integrity="sha384-q8i/X+965DzO0rT7abK41JStQIAqVgRVzpbzo5smXKp4YfRvH+8abtTE1Pi6jizo" crossorigin="anonymous"></script>
   <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.7/umd/popper.min.js" integrity="sha384-UO2eT0CpHqdSJQ6hJty5KVphtPhzWj9WO1clHTMGa3JDZwrnQq4sF86dIHNDz0W1" crossorigin="anonymous"></script>
