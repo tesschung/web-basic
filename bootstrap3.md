@@ -74,8 +74,51 @@ CSS reset
 
    - 그냥 m만하면 상하좌우 모두 적용
 
-   - .mx-auto    x면 양옆
+   - .mx-auto    x면 양옆 (인라인만)
 
      
 
    1.2 color
+
+   - 
+
+
+
+​		1.3 border
+
+
+
+​		1.4 display
+
+​			sm md lg xl
+
+
+
+class 등 적용 시키는법
+
+p -> padding
+
+etc..
+
+components
+
+form 중요
+
+grid
+
+modal
+
+
+
+grid system 에서보면,
+
+class="row"이고,
+
+3가지 갈래로 나누었음
+
+![1565246079191](C:\Users\student\AppData\Roaming\Typora\typora-user-images\1565246079191.png)
+
+
+
+
+
