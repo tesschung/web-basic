@@ -122,3 +122,48 @@ class="row"이고,
 
 
 
+homeworkshop위주
+
+html tag 기본구조
+
+head/body
+
+domtree구성
+
+semantic tag들
+
+그냥 div가 아니라 header section
+
+a, img 태그
+
+css는 property의 값 단위들
+
+키워드
+
+크기단위
+
+색깔단위 3가지 16진수 rgb
+
+
+
+display 속성 block none
+
+relative absolute position
+
+
+
+bootstrap 개념 뭐하는 건지
+
+ml-0 margin left 0
+
+primary secondary
+
+
+
+grid system 12개의 컬럼이 하나의 row가 된다
+
+
+
+특정 element에 사용가능한 class 사용 불가능한 class  
+
+img에 텍스트 관련한거 안됨 등등
